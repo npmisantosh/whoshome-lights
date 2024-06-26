@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    border: 1px solid black;
+}
+
+#div1,
+#div2 {
+    float: left;
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#main {
+    display: flex;
+    gap: 15px;
+    background-color: #C6EBBE;
+    padding: 30px;
+}
+
+#rooms {
+    background-color: #647AA3;
+    display: grid;
+    grid-template-columns: 20px 20px 50px 50px 20px 20px 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+}
+
+#entry {
+    grid-area: 1/1/3/3;
+}
+
+#living {
+    grid-area: 1/1/4/6;
+}
+
+#kitchen {
+    grid-area: 1/8/3/11;
+}
+
+#bedroom {
+    grid-area: 4/6/7/11;
+}
+
+#guestroom {
+    grid-area: 4/1/7/6;
+}
+
+#guestbath {
+    grid-area: 3/8/4/11;
+}
+
+#bathroom {
+    grid-area: 4/10/7/11;
+}
+
+#balcony {
+    grid-area: 1/1/3/3;
+}
