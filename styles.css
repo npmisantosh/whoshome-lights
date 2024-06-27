@@ -31,12 +31,12 @@ div {
     grid-template-rows: 50px 50px 50px 50px 50px 50px;
 }
 
-#her {
+.her {
 
     background-color: #dfdf7f;
 }
 
-#me {
+.me {
     background-color: #ffffff;
 }
 
@@ -53,7 +53,7 @@ div {
 }
 
 #bedroom {
-    grid-area: 4/6/7/10;
+    grid-area: 4/6/7/1;
 }
 
 #guestroom {
